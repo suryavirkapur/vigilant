@@ -1,0 +1,59 @@
+# Python virtual environment
+venv/
+env/
+.env/
+.venv/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Project specific
+processed_footage/
+processed_frames/
+footage/
+frames/
+*.mp4
+*.avi
+*.mov
+
+# Environment variables
+.env
+.env.*
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+*.db
+
+# YOLOv8 weights and models
+*.pt
+*.pth
+*.weights
+runs/
+
+# Log files
+*.log
+logs/
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
